@@ -6,6 +6,11 @@ body {
   background-size: cover;
   background-image: linear-gradient(to left bottom, #0A0336, #021A48, #002B5A, #003E6B, #00507A, #006188, #007294, #00839E, #0097A4, #00A995, #00B874, #4EC443); }
 
+.elimEditar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; }
+
 #agregar {
   background-color: black;
   position: fixed;
@@ -240,7 +245,7 @@ form {
   border: solid 2px #042444;
   border-radius: 10px;
   color: bisque;
-  width: 100%;
+  width: 0%;
   height: auto;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif; }

@@ -10,6 +10,12 @@
     // background-color: white;
   }
 
+  .elimEditar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
   #agregar {
     background-color: black;
     position: fixed;

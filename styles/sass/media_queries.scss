@@ -1,0 +1,25 @@
+@media (min-width: 1024px) {
+  main {
+ 
+      .contNews{
+          width: 45%;
+      }
+    #show {
+        position: fixed;
+        bottom: -8%;
+        right: 1%;
+        z-index: -1;
+   h2{
+       font-size: 2em;
+   }
+    img{
+        width: 60%;
+        justify-content: center;
+    }
+
+      &:hover {
+        transform: scale(1);
+      }
+    }
+  }
+}

@@ -9,13 +9,15 @@ main {
   }
   #news {
     padding: 0 5% 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     .contNews {
       border-radius: 7px;
-      padding: 3%;
+      padding: 2%;
       margin: 0 2% 5% 2%;
       display: flex;
       flex-direction: row;
-
       background-color: #060a24;
       font-size: 0.7em;
       color: white;

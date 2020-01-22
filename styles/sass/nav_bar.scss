@@ -24,13 +24,9 @@
 }
 .nav li a:hover,
 .nav .menu-btn:hover {
-  color: #060a24;
+  color: #2a7FFF;
   &:hover {
     color: #2a7FFF;
-  }
-  &:active {
-    color: rgba(6, 10, 36, 0.56);
-    opacity: 0.9;
   }
 }
 .nav .logo {
@@ -55,6 +51,10 @@
   max-height: 0;
   transition: max-height 0.5s ease-out;
   font-size: 20px;
+
+  li{a{
+    color: white;
+  }}
 }
 .nav .menu-icon {
   cursor: pointer;
@@ -130,11 +130,15 @@
       padding: 2% 2% 2% 5%;
     }
 
-    .textLogo{
+    .textLogo{  
       margin-top: 10%;
       width: 150px;
       margin-left: 20%;
       display: flex;
+
+      &:hover{
+        transform: scale(1.05);
+      }
 
     }
     .menu {
@@ -155,6 +159,10 @@
     }
     li a {
         padding: 20px 30px;
+
+        &:hover{
+          transform: scale(1.1);
+        }
       }
   }
 

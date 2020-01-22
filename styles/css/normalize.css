@@ -4,9 +4,10 @@
 
 body {
   background-size: cover;
-  background-image: linear-gradient(to left top, #02122A, #123F5F, #217296, #33AACB, #51E5FB); }
+  background-image: linear-gradient(to left bottom, #0A0336, #021A48, #002B5A, #003E6B, #00507A, #006188, #007294, #00839E, #0097A4, #00A995, #00B874, #4EC443); }
 
 #agregar {
+  background-color: black;
   position: fixed;
   bottom: 5%;
   left: 1%; }

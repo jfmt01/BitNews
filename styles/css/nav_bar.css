@@ -24,14 +24,10 @@
 
 .nav li a:hover,
 .nav .menu-btn:hover {
-  color: #060a24; }
+  color: #2a7FFF; }
   .nav li a:hover:hover,
   .nav .menu-btn:hover:hover {
     color: #2a7FFF; }
-  .nav li a:hover:active,
-  .nav .menu-btn:hover:active {
-    color: rgba(6, 10, 36, 0.56);
-    opacity: 0.9; }
 
 .nav .logo {
   margin-left: 20%;
@@ -53,6 +49,8 @@
   max-height: 0;
   transition: max-height 0.5s ease-out;
   font-size: 20px; }
+  .nav .menu li a {
+    color: white; }
 
 .nav .menu-icon {
   cursor: pointer;
@@ -125,6 +123,8 @@
       width: 150px;
       margin-left: 20%;
       display: flex; }
+      .nav .textLogo:hover {
+        transform: scale(1.05); }
     .nav .menu {
       background: none;
       clear: none;
@@ -137,6 +137,8 @@
         justify-content: flex-end; }
     .nav li a {
       padding: 20px 30px; }
+      .nav li a:hover {
+        transform: scale(1.1); }
 
   .nav .menu-icon {
     display: none; } }

@@ -24,7 +24,7 @@
         <a href="index.html"><img class="textLogo" src="/Images/img2.png" alt=""></a>
         <div class="anclas">
           <li><a href="#registro">Registro</a></li>
-          <li><a href="#login">Login</a></li>
+          <li><a data-toggle="modal" data-target="#ventanaModal">Login</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </div>
       </div>
@@ -42,26 +42,31 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="Images/pycon.jpg" class="d-block w-100" alt="...">
+          <a href="https://www.pycon.co/" target="_blank"><img src="Images/pycon.jpg" class="d-block w-100"
+              alt="pycon"></a>
           <div class="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="Images/AngelHack-1280x720.jpg" class="d-block w-100" alt="...">
+          <a href="https://www.facebook.com/events/678855636023963/?notif_t=event_has_tickets_available&notif_id=1579719849197390"
+            target="_blank"><img src="Images/agile_week.jpg" class="d-block w-100" alt="Agile week Globant">
+          </a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://angelhack.com/" target="_blank"><img src="Images/AngelHack-1280x720.jpg"
+              class="d-block w-100" alt="angelhack"></a>
           <div class="carousel-caption d-none d-md-block">
             <h5>Second slide label</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
-        <!--         <div class="carousel-item">
-          <img src="..." class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-          </div>
-        </div> -->
+
       </div>
       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -74,32 +79,77 @@
     </div>
   </section>
 
+  <!-- Botón agregar noticias-ADMIN -->
   <a id="agregar" class="btn btn-primary" href="#" role="button">+</a>
 
-  <!-- Button trigger modal -->
+  <!-- Modal Login -->
+  <div class="modal fade" id="ventanaModal" tabindex="-1" role="dialog" aria-labelledby="tituloVentana"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
+      <button class="close" data-dismiss="modal" aria-label="Cerrar">
+        <span aria-hidden="true">&times;</span>
+      </button>
+      <!-- <div class="modal-header">
+                <h5 id="tituloVentana">Login</h5>
+                <img  class="imagen-login" src="img/fodo-login.jpeg" alt="fondo-login" width="360px" >
+                <img  class="logo-login" src="img/img4.png" alt="logo" ></h4>
+			</div> -->
+
+      <!-- </div> -->
       <div class="modal-body">
-        ...
+        <div id="fondoDLogin" class="alert alert-success">
+
+          <img class="imagen-login" src="Images/fodo-login.jpeg" alt="fondo-login">
+          <img class="logo-login" src="Images/logoW.png" alt="logo"></h4>
+
+          <form>
+            <div class="form-group">
+              <label id="letralabel" for="recipient-name" class="col-form-label">CORREO :</label>
+              <input type="email" id="messagetext">
+            </div>
+            <div class="form-group">
+              <label id="letralabel" for="message-text" class="col-form-label">CONTRASEÑA:</label>
+              <input id="messagetext" type="password"></input>
+            </div>
+          </form>
+
+          <div id="botonregistrar" class="form-group">
+            <button id="botonAceptar" data-dismiss="modal">SING IN</button>
+          </div>
+          <div class="form-group opciones">
+            <a href="#">Olvidaste tu contraseña?</a>
+            <a href="#" id="cuenta">No tengo cuenta</a>
+
+          </div>
+        </div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+    </div>
+
+  </div>
+  <!-- Modal Noticias-->
+  <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
       </div>
     </div>
   </div>
-</div>
   <main class="flexRow">
-    
-    
+
+
     <Section id="news">
 
     </Section>

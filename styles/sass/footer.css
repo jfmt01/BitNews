@@ -1,0 +1,127 @@
+footer {
+  width: 100%;
+}
+
+.footer-container {
+  width: 100%;
+  background-image: url(https://cdn.ticbeat.com/src/uploads/2018/03/personajes-tecnologia-fallecieron-2017-810x540.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.footer-menu {
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-menu .footer-columna {
+  width: calc(100% / 3);
+  text-align: end;
+}
+
+.footer-menu .footer-columna:nth-child(2) {
+  padding: 0 20px;
+}
+
+.footer-menu .footer-columna h3 {
+  font-size: 32px;
+  color: #faf8f8;
+  margin-bottom: 20px;
+}
+
+.footer-menu .footer-columna span p {
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+.footer-copy-redes {
+  width: 100%;
+  background: rgba(5, 5, 5, 0.932);
+  border-top: 3px solid #fff;
+}
+
+.footer-main {
+  width: 100%;
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-redes {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer-redes a img {
+  display: inline-block;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  line-height: 40;
+  border-radius: 30%;
+  background: #fdfafa;
+}
+
+.footer-celular {
+  width: 37%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.creditos {
+  color: #ffffff;
+  text-align: center;
+}
+
+.icon-redes:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 230ms;
+  transition: 230ms;
+}
+
+.normal {
+  font-family: roboto;
+  color: white;
+}
+
+.normal {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+li:hover {
+  color: #02f8ec;
+}
+
+h3 {
+  /* font-family: norse; */
+  font-size: 1%;
+}
+/*# sourceMappingURL=footer.css.map */

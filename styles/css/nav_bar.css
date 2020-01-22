@@ -124,7 +124,7 @@
       margin-top: 10%;
       width: 150px;
       margin-left: 20%;
-      display: inline; }
+      display: flex; }
     .nav .menu {
       background: none;
       clear: none;

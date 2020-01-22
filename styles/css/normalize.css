@@ -3,10 +3,12 @@
   padding: 0px; }
 
 body {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  background-color: white; }
+  background-image: linear-gradient(to left top, #02122A, #123F5F, #217296, #33AACB, #51E5FB); }
+
+#agregar {
+  position: fixed;
+  bottom: 5%;
+  left: 1%; }
 
 /*# sourceMappingURL=normalize.css.map */
